@@ -1,0 +1,439 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 700,
+      "img": "../../../assets/images/p1.jpg",
+      "smallImgs": [
+        "../../../assets/images/p1.jpg",
+        "../../../assets/images/p1.jpg",
+        "../../../assets/images/p1.jpg",
+        "../../../assets/images/p1.jpg"
+      ],
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "2",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p2.jpg",
+      "smallImgs": [
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "3",
+      "specialTag": "out of stock",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p3.jpg",
+      "smallImgs": [
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "4",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p4.jpg",
+      "smallImgs": [
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "5",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "img": "../../../assets/images/p5.jpg",
+      "smallImgs": [
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "6",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p6.jpg",
+      "smallImgs": [
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg"
+      ],
+      "oldPrice": 700,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "7",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 700,
+      "img": "../../../assets/images/p3.jpg",
+      "smallImgs": [
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg"
+      ],
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "8",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 700,
+      "img": "../../../assets/images/p1.jpg",
+      "smallImgs": [
+        "../../../assets/images/p1.jpg",
+        "../../../assets/images/p1.jpg",
+        "../../../assets/images/p1.jpg",
+        "../../../assets/images/p1.jpg"
+      ],
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "9",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p2.jpg",
+      "smallImgs": [
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "10",
+      "specialTag": "out of stock",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p3.jpg",
+      "smallImgs": [
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "11",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p4.jpg",
+      "smallImgs": [
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "12",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "img": "../../../assets/images/p5.jpg",
+      "smallImgs": [
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "13",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p6.jpg",
+      "smallImgs": [
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg"
+      ],
+      "oldPrice": 700,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "14",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 700,
+      "img": "../../../assets/images/p1.jpg",
+      "smallImgs": [
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg",
+        "../../../assets/images/p6.jpg"
+      ],
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "15",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 700,
+      "img": "../../../assets/images/p3.jpg",
+      "smallImgs": [
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg"
+      ],
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "16",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p2.jpg",
+      "smallImgs": [
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg",
+        "../../../assets/images/p2.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "17",
+      "specialTag": "out of stock",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p3.jpg",
+      "smallImgs": [
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg",
+        "../../../assets/images/p3.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "18",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p4.jpg",
+      "smallImgs": [
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg",
+        "../../../assets/images/p4.jpg"
+      ],
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "19",
+      "specialTag": "",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "img": "../../../assets/images/p5.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "oldPrice": 0,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    },
+    {
+      "id": "20",
+      "specialTag": "sale",
+      "name": "round sunglasses",
+      "desc": "join life",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.",
+      "price": 500,
+      "img": "../../../assets/images/p6.jpg",
+      "smallImgs": [
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg",
+        "../../../assets/images/p5.jpg"
+      ],
+      "oldPrice": 700,
+      "info": {
+        "weight": "1.25",
+        "deminsions": "60 × 35 × 2",
+        "colors": "white",
+        "sizes": "Large (L), Medium (M), Small (S)"
+      }
+    }
+  ],
+  "cart": []
+}

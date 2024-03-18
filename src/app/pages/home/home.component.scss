@@ -1,0 +1,147 @@
+.main-carousel {
+    .carousel-caption {
+        height: 100%;
+        text-align: left;
+    }
+
+    .carousel-item {
+        position: relative;
+    }
+
+    .bg-color {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(255, 255, 255, 0.199);
+    }
+
+    .slider-parag {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.subscribe-section {
+    margin: 20px;
+
+    p {
+        font-weight: bolder;
+        font-size: 50px;
+        width: fit-content;
+        padding-bottom: 20px;
+        margin: 20px;
+
+        span {
+            font-family: "Pacifico", cursive;
+            font-size: 150px;
+        }
+    }
+
+    button {
+        margin: 20px;
+    }
+
+    .small-border {
+        border-color: #000000;
+        border-style: solid;
+        width: 100px;
+        border-bottom-width: 2px;
+        margin-top: 39px;
+        margin-bottom: 50px;
+        margin: 20px;
+    }
+}
+
+.discount {
+    background-image: url(../../../assets/images/discount.jpg);
+    background-repeat: no-repeat;
+    padding: 50px 10px;
+    font-size: 180px;
+    background-size: cover;
+    position: static;
+    background-position: center 0;
+    background-attachment: fixed;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sayings-carousel {
+    padding: 80px 10px 40px 10px;
+
+    h1 {
+        padding-bottom: 10px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    .small-border {
+        border-color: #000000;
+        border-style: solid;
+        width: 100px;
+        border-bottom-width: 2px;
+        margin: 10px auto;
+    }
+
+    p {
+        padding: 10px 70px;
+    }
+}
+
+.blogs {
+    background-color: #eee;
+}
+
+.shop-samples {
+    .small-border {
+        border-color: #000000;
+        border-style: solid;
+        width: 100px;
+        border-bottom-width: 2px;
+        margin: 30px auto;
+    }
+
+    .small-title {
+        font-family: "Pacifico", cursive;
+        color: #949494;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .desc {
+        max-width: 500px;
+        margin: 0 auto;
+        color: #949494;
+    }
+
+    .product {
+        position: relative;
+
+        .tag {
+            position: absolute;
+            top: 60px;
+            right: 24px;
+            z-index: 2;
+            background-color: #000000;
+            color: white;
+            padding:3px 10px 3px 20px;
+        }
+    }
+}
+
+@media (max-width: 978px) {
+    .discount {
+        font-size: 60px;
+    }
+
+    .subscribe-section {
+        p {
+            span {
+                font-size: 100px;
+            }
+        }
+    }
+}

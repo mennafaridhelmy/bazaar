@@ -1,0 +1,32 @@
+.title {
+    background-color: #eee;
+    padding: 60px !important;
+    font-size: 20px;
+}
+
+.main-img {
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 2;
+    background-color: #000000;
+    color: white;
+    padding: 3px 10px 3px 20px;
+}
+
+.item-content {
+    span {
+        color: #949494;
+        text-decoration: line-through;
+    }
+    .description{
+        color: #949494;
+    }
+    .btn{
+        border: none;
+    }
+}

@@ -1,0 +1,44 @@
+.title {
+    background-color: #eee;
+    padding: 60px !important;
+    font-size: 20px;
+}
+
+.price {
+    color: #949494;
+}
+
+.shopping-item {
+    .quantity {
+        width: 200px;
+        height: 42px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        border: none;
+    }
+}
+
+.cart-item {
+    position: relative;
+
+    .close-btn {
+        position: absolute !important;
+        top: 20px;
+        right: 10px;
+    }
+}
+
+.update-btn {
+    button {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+.total-price {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid black;
+}

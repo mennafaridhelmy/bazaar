@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+// start of main styles
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus-visible {
+    outline: none !important
+}
+a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;
+}
+// end of main styles

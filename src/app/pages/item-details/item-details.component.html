@@ -1,0 +1,56 @@
+<div class="title mt-5">
+    <a routerLink="/home">Home</a> / <a routerLink="/shop">Shop</a> / {{item.name}}
+</div>
+<div class="container p-5">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="p-2" *ngFor="let smallImg of item.smallImgs">
+                        <img src="{{smallImg}}" width="100%" height="100px" />
+                    </div>
+                </div>
+                <div class="col-sm-9 main-img">
+                    <img class="p-2" src="{{item.img}}" width="100%" height="100%" />
+                    <p class="tag" *ngIf="item.specialTag!=''">
+                        {{item.specialTag}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 item-content">
+            <h1>{{item.name}}</h1>
+            <p><span *ngIf="item.oldPrice>0">${{item.oldPrice}}</span> ${{item.price}}</p>
+            <p class="description">{{item.description}}</p>
+            <div class="shopping-item d-flex">
+                <div class="border d-flex">
+                    <p class="p-2 m-0">Quantity</p>
+                    <button class="btn" (click)="substractQuantity()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                            <path
+                                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                        </svg>
+                    </button>
+                    <p class="p-2 m-0">{{quantity}}</p>
+                    <button class="btn" (click)="addQuantity()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path
+                                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                        </svg>
+                    </button>
+                </div>
+                <button class="btn btn-dark ms-3" (click)="addProduct(item.id)">add to cart</button>
+            </div>
+            <div class="info">
+                <p class="description py-3">
+                    weight: {{item.info.weight}}<br>
+                    deminsions: {{item.info.deminsions}}<br>
+                    colors: {{item.info.colors}}<br>
+                    size: {{item.info.sizes}}<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

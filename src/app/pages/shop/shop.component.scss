@@ -1,0 +1,36 @@
+.shop-products {
+    .small-border {
+        border-color: #000000;
+        border-style: solid;
+        width: 100px;
+        border-bottom-width: 2px;
+        margin: 30px auto;
+    }
+
+    .small-title {
+        font-family: "Pacifico", cursive;
+        color: #949494;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .desc {
+        max-width: 500px;
+        margin: 0 auto;
+        color: #949494;
+    }
+
+    .product {
+        position: relative;
+
+        .tag {
+            position: absolute;
+            top: 50px;
+            right: 13px;
+            z-index: 2;
+            background-color: #000000;
+            color: white;
+            padding:3px 10px 3px 20px;
+        }
+    }
+}
