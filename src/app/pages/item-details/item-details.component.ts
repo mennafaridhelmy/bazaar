@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ManagingDbService } from '../../shared/managing-db/managing-db.service';
 
 @Component({
   selector: 'app-item-details',
@@ -15,7 +16,7 @@ export class ItemDetailsComponent {
   item: any;
   cartProducts: any;
 
-  constructor(private route: ActivatedRoute, private _http: HttpClient) {}
+  constructor(private route: ActivatedRoute,public _mangerService: ManagingDbService ,private _http: HttpClient) {}
 
   ngOnInit() {
     this.route.params.subscribe((params) => {
@@ -26,16 +27,12 @@ export class ItemDetailsComponent {
   }
 
   getItem() {
-    this._http.get(this.url+'/products').subscribe((data) => {
-      this.products = data;
-    });
+    this.products = this._mangerService.productsData;
     this.item = this.products.filter((x) => x.id == this.item_id)[0];
   }
 
   getCart(){
-    this._http.get(this.url + '/cart').subscribe((data) => {
-      this.cartProducts = data;
-    });
+    this.cartProducts = this._mangerService.cartData;
   }
 
   addQuantity() {

@@ -1,5 +1,6 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { ManagingDbService } from '../../shared/managing-db/managing-db.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +13,7 @@ export class HomeComponent implements OnInit {
   productsSample: any;
   cartProducts: any;
 
-  constructor(private _http: HttpClient) {}
+  constructor(public _mangerService: ManagingDbService , private _http: HttpClient) {}
 
   ngOnInit(): void {
     this.getProducts();
@@ -20,16 +21,12 @@ export class HomeComponent implements OnInit {
   }
 
   getProducts() {
-    this._http.get(this.url + '/products').subscribe((data) => {
-      this.products = data;
-      this.productsSample = this.products.slice(0, 6);
-    });
+    this.products = this._mangerService.productsData;
+    this.productsSample = this.products.slice(0, 6);
   }
 
-  getcart(){
-    this._http.get(this.url + '/cart').subscribe((data) => {
-      this.cartProducts = data;
-    });
+  getcart() {
+    this.cartProducts = this._mangerService.cartData;
   }
 
   addProduct(id: number) {
@@ -45,7 +42,7 @@ export class HomeComponent implements OnInit {
           id: id,
           quantity: product.quantity,
         };
-        this._http.put(this.url + '/cart/'+id,addedItem).subscribe();
+        this._http.put(this.url + '/cart/' + id, addedItem).subscribe();
       }
     });
 

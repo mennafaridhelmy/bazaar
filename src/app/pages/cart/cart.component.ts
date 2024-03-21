@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { AppComponent } from '../../app.component';
+import { ManagingDbService } from '../../shared/managing-db/managing-db.service';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -15,7 +16,7 @@ export class CartComponent {
   sum = 0;
   newCart: any = [];
   parentComponent = this._parent;
-  constructor(private _http: HttpClient, private _parent: AppComponent) {}
+  constructor(private _http: HttpClient,public _mangerService: ManagingDbService , private _parent: AppComponent) {}
 
   ngOnInit(): void {
     this.getCart();
@@ -25,15 +26,11 @@ export class CartComponent {
   }
 
   getCart(){
-    this._http.get(this.url + '/cart').subscribe((data) => {
-      this.cartProductsObject = data;
-    });
+    this.cartProductsObject= this._mangerService.cartData;
   }
 
   getProducts(){
-    this._http.get(this.url + '/products').subscribe((data) => {
-      this.products = data;
-    });
+    this.products = this._mangerService.productsData;
   }
 
   findCartItems() {

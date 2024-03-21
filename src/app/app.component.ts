@@ -1,6 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { NgwWowService } from 'ngx-wow';
+import { ManagingDbService } from './shared/managing-db/managing-db.service';
 
 @Component({
   selector: 'app-root',
@@ -11,18 +10,15 @@ export class AppComponent implements OnInit {
   title = 'bazaar';
   searchKeyWord = '';
   cartItems:any;
-  cartUrl = 'http://localhost:3000/cart';
-  constructor(private _http: HttpClient,private wowService: NgwWowService) {
+  constructor(public _mangerService: ManagingDbService) {
   }
 
   ngOnInit() {
-    this.wowService.init();
-    this.getCartItems();
+    this.getCartData();
+    
   }
 
-  getCartItems(){
-    this._http.get(this.cartUrl).subscribe((data) => {
-      this.cartItems=data;
-    });
+  getCartData(){
+    this.cartItems = this._mangerService.cartData;
   }
 }
